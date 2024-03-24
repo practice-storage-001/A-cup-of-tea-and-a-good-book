@@ -91,8 +91,9 @@ flametree_grow(
   shift_x = spark_random(multiplier = 1),
   shift_y = spark_random(multiplier = 1)
 ) %>%
-  flametree_plot(palette = shades,background = "black", style = "nativeflora")
+  flametree_plot(palette = shades,background = "white")
 ```
+
 ```{r}
 seq(-12,12, by = 0.04) %>%
   expand.grid(x=., y=.) %>%
